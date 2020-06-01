@@ -2,7 +2,9 @@
 
 ## About
 V1.0
+
 This utility was designed to export sounds and music from Minecraft.
+
 You can run this program from the command line. If you don't have python installed, a .exe file is available which might be flagged by antivirus programs. Unfortunately you'll just have to take my word on it that this isn't a virus. ¯\\\_(ツ)_/¯
 
 ## Usage
