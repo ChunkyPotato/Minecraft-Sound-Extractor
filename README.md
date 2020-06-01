@@ -12,10 +12,12 @@ You can run this program from the command line. If you don't have python install
 This program is not intended to replace buying the official soundtrack! I **strongly** urge you to **buy the official soundtrack** and support the artist before/instead of using this utility.
 
 Links to where you can buy the official soundtrack:
+
 [Volume Alpha](https://c418.bandcamp.com/album/minecraft-volume-alpha)
+
 [Volume Beta](https://c418.bandcamp.com/album/minecraft-volume-beta)
 
-This utility was primarily intended to help people export the sounds from minecraft to use in their projects, e.g. YouTube videos.
+This utility was primarily intended to help people export the sounds from Minecraft to use in their projects, e.g. YouTube videos.
 
 ## Usage
 Running this program, it will scan your Minecraft directory for indexes of installed versions and then ask you which version you would like to use for extraction. Type in the version, for example, `1.15` for Minecraft 1.15, and hit Enter to continue.
