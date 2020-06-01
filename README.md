@@ -1,4 +1,4 @@
-# Minecraft Sound Exporter
+# Minecraft Sound Extractor
 
 ## About
 V1.0
@@ -27,5 +27,9 @@ Next, you will need to specify whether you want to extract music only, sounds on
 The program will then extract the files and copy them to `/out/<version>/minecraft/sounds/`. The directory and sub-directories will be created automatically from the folder where the application was run.
 
 Music files will be extracted to `/out/<version>/minecraft/sounds/music`.
+
+This program was designed for Windows installations of Minecraft. Sorry Mac and Linux users! ;-;
+
+I may support other platforms and implement command line arguments in the future... if I am not too lazy to do so.
 
 Enjoy!
