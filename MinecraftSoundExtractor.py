@@ -1,3 +1,5 @@
+print("Starting...") # Opening message
+
 # Import stuffs used
 import os
 import json
@@ -15,8 +17,6 @@ def extractObj(type):
             os.makedirs(os.path.dirname(dest), exist_ok=True)
             copy2(path, dest)
             print("Copied file: " + type[type.index(obj) - 1])
-
-print("Starting...") # Opening message
 
 rawInputFiles = os.listdir(MINECRAFT_DIR+"indexes") # Retrieve available files, as [version].json
 inputFiles = [] # Stores the versions of the files we can use
