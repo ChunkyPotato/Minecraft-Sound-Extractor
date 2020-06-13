@@ -45,10 +45,10 @@ music = [] # Will contain paths and hashes for music
 # Store the paths and hashes for music and sfx
 data = json.load(open(MINECRAFT_DIR+"indexes/"+version+".json", 'r'))
 for x in data["objects"]:
-    if x[:17] == "minecraft/sounds/" and not x[:23] == "minecraft/sounds/music/":
+    if x[:17] == "minecraft/sounds/" and not (x[:23] == "minecraft/sounds/music/" or x[:25] == "minecraft/sounds/records/"):
         sounds.append(x)
         sounds.append(data["objects"][x]["hash"])
-    elif x[:23] == "minecraft/sounds/music/":
+    elif x[:23] == "minecraft/sounds/music/" or x[:25] == "minecraft/sounds/records/":
         music.append(x)
         music.append(data["objects"][x]["hash"])
 
@@ -60,6 +60,7 @@ if not request == "sfx":
     print("\nExtracting music...")
     extractObj(music)
     print("\nMusic is in \'out/"+version+"/minecraft/sounds/music\'.") # Clarify where music is located
+    print("Music discs are in \'out/" + version + "/minecraft/sounds/records\'.")  # Clarify where music discs is located
 
 print("\nDone!") # Closing message
 os.system('pause')
